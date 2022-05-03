@@ -7,7 +7,6 @@
     background: url(../../img/main__page/sofa1.jpg) center center/cover no-repeat fixed;
     text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
     background-color: #e7e5e4;
-    background-position: 0 -440px;
 }
 
 .scroll:after {
