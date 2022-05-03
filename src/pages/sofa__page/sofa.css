@@ -1,0 +1,20 @@
+.header {
+    background: url(../../img/sofa__page/sofa.jpg) center center/cover no-repeat fixed;
+    background-position: 0 -500px;
+}
+
+#_1 {
+    background: url(../../img/sofa__page/sofa.jpg) center center/cover no-repeat;
+}
+
+#_2 {
+    background: url(../../img/sofa__page/sofa2.jpg) center center/cover no-repeat;
+}
+
+#_3 {
+    background: url(../../img/sofa__page/sofa3.jpg) center center/cover no-repeat;
+}
+
+#_4 {
+    background: url(../../img/sofa__page/sofa4.jpg) center center/cover no-repeat;
+}

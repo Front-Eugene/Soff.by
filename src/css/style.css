@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Yanone";
+    src: url("../fonts/Yanone.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Yanone';
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
+}
+
+
+a {
+    text-decoration: none;
+}

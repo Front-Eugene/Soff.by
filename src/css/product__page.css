@@ -1,0 +1,150 @@
+.header {
+    width: 100%;
+    height: 300px;
+}
+
+h1 {
+    margin: 0 0 0 100px;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+p {
+    margin: 10px 0 0 50px;
+    font-size: 20px;
+}
+
+.navigation {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    width: 230px;
+    height: 150px;
+    border: 2px solid #696d76;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    transition: .2s;
+}
+
+.item:hover {
+    box-shadow: 10px 10px 5px 1px rgba(109, 96, 96, 0.3);
+}
+
+.main { 
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/img__same/logo.jpg) center center/cover no-repeat;
+}
+
+.sofa {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/img__same/sofa.jpg) center center/cover no-repeat;
+}
+
+.sofa__corner {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/img__same/sofa_corner.jpg) center center/cover no-repeat;
+}
+
+.armchair {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/img__same/armchair.jpg) center center/cover no-repeat;
+}
+
+.ottoman {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/img__same/ottoman.jpg) center center/cover no-repeat;
+}
+
+.bed {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/img__same/bed.jpg) center center/cover no-repeat;
+}
+
+.catalog {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.search {
+    width: 90%;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sort {
+    width: 250px;
+    height: 40px;
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    border: 2px solid #696d76;
+    border-radius: 5px;
+    color:#FFFFFF;
+    background: linear-gradient(#9198e5, #f7f5f5);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px 1px rgba(109, 96, 96, 0.3);
+}
+
+.card_info {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    font-size: 20px;
+    line-height: 25px;
+    background: rgba(109, 105, 105, 0.5);
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #2a2b2e;
+}
+
+.footer__item {
+    margin: 10px 0 0 0;
+}
