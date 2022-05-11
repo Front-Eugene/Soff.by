@@ -28,5 +28,15 @@ btnDown.addEventListener('click', function() {
 })
 
 btnHave.addEventListener('click', function() {
-    console.log('I see u')
+    if (btnHave.innerHTML == "Показать все")
+    {
+        btnHave.innerHTML = "Только в наличии"
+    }
+    else {
+        btnHave.innerHTML = "Показать все"
+    }
+
+    cards.forEach(element => {
+        if (element.getAttribute('data-existence') == 'fasle') element.classList.toggle('hide')
+    })
 })

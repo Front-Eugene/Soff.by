@@ -7,7 +7,6 @@
     overflow: hidden;
     background: url(../../img/main__page/sofa1.jpg) center center/cover no-repeat fixed;
     text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
-    /* background-color: #e7e5e4; */
 }
 
 .scroll:after {
@@ -97,9 +96,6 @@
 
 /* #2 PRODUCTS SECTION__________ */
 
-
-
-
 .products {
     width: 100%;
 }
@@ -160,17 +156,11 @@ h2 {
     background: url(../../img/main__page/ottoman.jpg) center center/cover no-repeat;
 }
 
-
-
-
 /* #3 SLIDER SECTION__________ */
-
-
 
 .slider {
     width: 100%;
 }
-
 
 .slider__wrap {
     overflow: hidden;
@@ -293,9 +283,6 @@ h2 {
     right: 0;
 }
 
-
-
-
 #_1 {
     background: url(../../img/bed__page/bed.jpg) center center/cover no-repeat;
 }
@@ -394,9 +381,7 @@ h2 {
 }
 
 
-
-
-/* SECTION__________ */
+/* #4 ABOUT SECTION__________ */
 
 .about {
     width: 100%;
@@ -451,8 +436,6 @@ h2 {
     margin: 10px auto;
 }
 
-
-
 .map__wrap {
     display: flex;
 }
@@ -472,7 +455,6 @@ h2 {
     color: #696d76;
     text-align: center;
 }
-
 
 .footer {
     width: 100%;

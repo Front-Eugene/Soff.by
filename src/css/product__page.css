@@ -125,6 +125,10 @@ p {
     transition: .2s;
 }
 
+.hide {
+    display: none;
+}
+
 .card:hover {
     box-shadow: 10px 10px 5px 1px rgba(109, 96, 96, 0.3);
 }
