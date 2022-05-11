@@ -4,10 +4,11 @@
 }
 
 body {
+    position: relative;
     font-family: 'Yanone';
     margin: 0 auto;
-    color: #FFFFFF;
     text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
+    color: #FFFFFF;
 }
 
 
