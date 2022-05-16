@@ -28,8 +28,8 @@ btnDown.addEventListener('click', function() {
 })
 
 btnHave.addEventListener('click', function() {
-    cards.forEach(element => {
-        if (element.getAttribute('data-existence') == 'fasle') element.classList.toggle('hide')
+    cards.forEach(elem => {
+        if (elem.getAttribute('data-existence') == 'false') elem.classList.toggle('hide')
     })
 
     if (btnHave.innerHTML == "Показать все")
