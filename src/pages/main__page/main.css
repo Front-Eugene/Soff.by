@@ -39,21 +39,20 @@
 .description {
     font-weight: 100;
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .consultation {
     width: 200px;
     height: 38px;
-    margin: 20px 0;
-    cursor: pointer;
-    font-family: "Yanone";
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #FFFFFF;
+    margin: 70px 0 0 0;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFFFFF;
     background-color: rgba(250, 250, 250, 0);
     transition: .5s;
 }
@@ -81,7 +80,6 @@ h2 {
     text-align: center;
     font-weight: 100;
     text-transform: uppercase;
-    text-shadow: 7px 7px 5px rgb(0 0 0 / 36%);
     letter-spacing: 1px;
     color: #696d76;
 }
@@ -102,7 +100,6 @@ h2 {
     margin: 40px 10px;
     font-size: 30px;
     border: 2px solid #FFFFFF;
-    box-shadow: rgb(255 255 255) 0px 0px 50px;
 }
 
 .products__description {
@@ -392,15 +389,14 @@ h2 {
 .about__wrap {
     width: 90%;
     height: 200px;
-    margin: 100px 0 0 0;
+    margin: 15px 0 0 0;
     color: #FFFFFF;
-    text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
 }
 
 .about__wrap h2 {
     font-size: 50px;
     color: #FFFFFF;
-    text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
+    /* text-shadow: 3px 3px 3px rgb(0 0 0 / 80%); */
     text-transform: none;
 }
 
@@ -418,7 +414,7 @@ h2 {
     width: 50%;
     font-size: 35px;
     text-transform: uppercase;
-    text-shadow: 7px 7px 5px rgb(0 0 0 / 36%);
+    /* text-shadow: 7px 7px 5px rgb(0 0 0 / 36%); */
     color: #696d76;
     background: #2312;
 }
@@ -445,7 +441,7 @@ h2 {
     margin: 10px 0 0 0;
 }
 
-
+/* #1 MEDIA STYLES__________ */
 
 @media (max-width: 900px) {
     .modal__title {
@@ -487,6 +483,10 @@ h2 {
     .search {
         height: 156px;
         flex-wrap: wrap;
+    }
+
+    .sort {
+        display: block;
     }
 
     .instagram__item {

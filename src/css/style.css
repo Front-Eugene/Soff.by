@@ -1,13 +1,12 @@
 @font-face {
-    font-family: "Yanone";
-    src: url("../fonts/Yanone.ttf") format("truetype");
+    font-family: "Circe";
+    src: url("../fonts/Circe.otf") format("truetype");
 }
 
 body {
     position: relative;
-    font-family: 'Yanone';
+    font-family: 'Circe', sans-serif;
     margin: 0 auto;
-    text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
     color: #FFFFFF;
 }
 
