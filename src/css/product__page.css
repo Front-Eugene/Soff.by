@@ -5,7 +5,7 @@
 
 h1 {
     margin: 0 0 0 100px;
-    padding: 30px 0;
+    padding: 60px 0;
     font-size: 50px;
 }
 
@@ -71,34 +71,6 @@ h2 {
 .ottoman {
     background: url(../img/main__page/ottoman.jpg) center center/cover no-repeat;
 }
-
-
-/* .navigation {
-    width: 90%;
-    height: 250px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.item {
-    width: 230px;
-    height: 150px;
-    border: 2px solid #696d76;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
-    color: #FFFFFF;
-    transition: .2s;
-}
-
-.item:hover {
-    box-shadow: 10px 10px 5px 1px rgba(109, 96, 96, 0.3);
-} */
 
 .main { 
     width: 100%;

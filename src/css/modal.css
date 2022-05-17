@@ -13,6 +13,7 @@
 
 .modal__active {
     opacity: 1;
+    z-index: 99999;
     display: flex;
 }
 
