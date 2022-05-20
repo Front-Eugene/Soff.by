@@ -125,15 +125,16 @@ h2 {
 
 .search {
     width: 90%;
-    height: 50px;
+    min-height: 50px;
     margin: 20px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .sort {
-    max-width: 250px;
+    width: 50%;
     height: 40px;
     margin: 0 5px;
     font-size: 20px;
@@ -152,8 +153,22 @@ h2 {
     margin: 0 0 20px 0;
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
     overflow: hidden;
     transition: .2s;
+}
+
+.card_info {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 25px;
+    background: rgba(109, 105, 105, 0.5);
+}
+
+.card:hover .card_info {
+    opacity: 1;
 }
 
 .hide {
@@ -164,12 +179,11 @@ h2 {
     box-shadow: 10px 10px 5px 1px rgba(109, 96, 96, 0.3);
 }
 
-.card_info {
+.btn__wrap {
     width: 100%;
-    padding: 10px 0 10px 10px;
-    font-size: 20px;
-    line-height: 25px;
-    background: rgba(109, 105, 105, 0.5);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer {

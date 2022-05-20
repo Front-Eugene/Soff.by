@@ -33,7 +33,7 @@
 
 .logo {
     font-size: 80px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .description {
@@ -99,6 +99,7 @@ h2 {
 
 .products__description {
     width: 100%;
+    margin: -27px auto;
     font-size: 30px;
 }
 
@@ -286,12 +287,6 @@ h2 {
 
 #_9 {
     background: url(../../img/bed__page/bed_9.jpg) center center/cover no-repeat;
-}
-
-.btn__wrap {
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-around;
 }
 
 /* #4 INSTAGRAM SECTION________ */
