@@ -6,7 +6,6 @@
     position: relative;
     overflow: hidden;
     background: url(../../img/main__page/main-screen.jpg) center center/cover no-repeat fixed;
-    background-position: 0px -490px;
     text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
 }
 
@@ -321,11 +320,9 @@ h2 {
     margin: 0 auto;
 }
 
-
-/* 
 .marquee-infinite:hover div {
     animation-play-state: paused;
-} */
+}
 
 @keyframes marquee-infinite {
     0% {
@@ -434,7 +431,10 @@ h2 {
     }
 
     .telephone {
-        font-size: 5px;
         letter-spacing: 0px;
+    }
+
+    .consultation {
+        margin: 0 auto;
     }
 }

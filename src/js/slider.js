@@ -8,7 +8,7 @@ let position = 0,
 
     autoScroll = setInterval(() => {
         nextScroll()
-    }, 2000),
+    }, 3000),
 
     nextScroll = () => {
         if (position === -trackWidth) {

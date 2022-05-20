@@ -1,7 +1,6 @@
-const deadline = '2022-7-25',
-      deadline_2 = '2022-6-15',
+const deadline_1 = '2022-7-25',
+      deadline_2 = '2022-7-24',
       deadline_3 = '2022-8-15',
-      deadline_4 = '2022-9-15',
       minSecondsInSecond = 1000,
       secondInMinute = 60,
       minInHour = 60,
@@ -47,7 +46,6 @@ function setClock(className, endTime) {
     }
 }
 
-setClock('.timer', deadline);
+setClock('.timer_1', deadline_1);
 setClock('.timer_2', deadline_2);
 setClock('.timer_3', deadline_3);
-setClock('.timer_4', deadline_4);

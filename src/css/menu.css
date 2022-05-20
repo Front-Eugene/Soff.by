@@ -37,7 +37,7 @@
 }
 
 .contacts__wrap {
-    width: 23%;
+    width: 260px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -102,10 +102,10 @@
 
 .footer {
     width: 100%;
-    height: auto;
+    min-height: 150px;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
     font-size: 15px;
     color: #FFFFFF;
