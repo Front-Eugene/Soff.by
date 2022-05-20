@@ -133,6 +133,11 @@ h2 {
     flex-wrap: wrap;
 }
 
+.search button {
+    min-width: 300px;
+    margin: 10px;
+}
+
 .sort {
     width: 50%;
     height: 40px;
@@ -142,9 +147,36 @@ h2 {
     color: rgb(46 46 46);
 }
 
+.btn__wrap {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background: #FFFFFF;
+}
+
+.more span {
+    margin: 0 5px;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+}
+
+.more div {
+    color: red
+}
+
 .order {
-    color: #FFFFFF;
-    background: rgb(11, 94, 8);
+    width: 30%;
+    color: #000000;
+    background: #ffe163;
 }
 
 .card {
@@ -164,7 +196,7 @@ h2 {
     opacity: 0;
     font-size: 20px;
     line-height: 25px;
-    background: rgba(109, 105, 105, 0.5);
+    background: rgb(0 0 0 / 70%);
 }
 
 .card:hover .card_info {
@@ -177,13 +209,6 @@ h2 {
 
 .card:hover {
     box-shadow: 10px 10px 5px 1px rgba(109, 96, 96, 0.3);
-}
-
-.btn__wrap {
-    width: 100%;
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-around;
 }
 
 .footer {

@@ -45,7 +45,7 @@
 .consultation {
     width: 200px;
     height: 38px;
-    margin: 70px 0 0 0;
+    margin: 20px 0 0 0;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
@@ -424,10 +424,10 @@ h2 {
 /* #6 MEDIA STYLES__________ */
 
 
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 1024px)  {
 
     .address__wrap {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .telephone {
