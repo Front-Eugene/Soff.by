@@ -6,6 +6,7 @@
     position: relative;
     overflow: hidden;
     background: url(../../img/main__page/main-screen.jpg) center center/cover no-repeat fixed;
+    background-size: contain;
     text-shadow: 3px 3px 3px rgb(0 0 0 / 80%);
 }
 
@@ -89,7 +90,7 @@ h2 {
 }
 
 .products__item {
-    min-width: 400px;
+    width: 400px;
     height: 200px;
     margin: 40px 10px;
     font-size: 30px;
@@ -436,5 +437,160 @@ h2 {
 
     .consultation {
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        padding: 0px 5px;
+    }
+
+    .contacts__wrap {
+        width: 200px;
+    }
+
+    .logo {
+        font-size: 60px;
+    }
+    
+    .description {
+        font-size: 25px;
+    }
+
+    .slider__description h2 {
+        font-size: 40px;
+    }
+
+    .slider__description p {
+        font-size: 30px;
+    }
+
+    .modal__title {
+        padding: 0 25px;
+        font-size: 20px;
+    }
+
+    .about__wrap p {
+        font-size: 25px;
+        line-height: 25px;
+        margin: 20px auto;
+    }
+
+    .address {
+        padding: 100px 15px;
+    }
+
+    .footer {
+        align-items: baseline;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .scroll {
+        height: 100vh;
+    }
+
+    .telephone {
+        font-size: 12px;
+    }
+
+    .description {
+        margin: 30px auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .scroll .consultation {
+        margin: -30px auto;
+        font-weight: 600;
+        color: #000000;
+        border-color: #000000;
+    }
+
+    .slider__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .slider__description {
+        width: 100%;
+    }
+
+    .slider__description h2 {
+        font-size: 30px;
+    }
+
+    .slider__description p {
+        font-size: 20px;
+    }
+
+    .timer__block {
+        height: 85px;
+        font-size: 40px;
+    }
+
+    .instagram h2 {
+        margin: 10px 0;
+        font-size: 25px;
+    }
+
+    .instagram__item img {
+        width: 200px;
+    }
+
+    .about__wrap p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .address {
+        padding: 100px 10px;
+        font-size: 20px;
+    }
+
+    .footer {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .contacts__wrap {
+        width: 175px;
+    }
+
+    .products {
+        display: none;
+    }
+
+    .telephone {
+        font-size: 13px;
+    }
+
+    .address {
+        font-size: 15px;
+    }
+
+    .about__wrap p {
+        font-size: 15px;
+    }
+
+    .footer {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .telephone {
+        font-size: 10px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+    
+    .sort {
+        font-size: 15px;
     }
 }
