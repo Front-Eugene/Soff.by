@@ -589,8 +589,12 @@ h2 {
     .description {
         font-size: 15px;
     }
-    
+
     .sort {
+        font-size: 15px;
+    }
+
+    .menu a {
         font-size: 15px;
     }
 }
