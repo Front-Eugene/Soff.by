@@ -454,7 +454,16 @@ h2 {
     }
     
     .description {
+        font-weight: 900;
         font-size: 25px;
+        color: #000000;
+    }
+    
+    .scroll .consultation {
+        margin: -30px auto;
+        font-weight: 600;
+        color: #000000;
+        border-color: #000000;
     }
 
     .products {
@@ -503,13 +512,6 @@ h2 {
         margin: 30px auto;
         font-size: 20px;
         text-align: center;
-    }
-
-    .scroll .consultation {
-        margin: -30px auto;
-        font-weight: 600;
-        color: #000000;
-        border-color: #000000;
     }
 
     .products {
