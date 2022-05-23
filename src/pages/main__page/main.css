@@ -431,6 +431,11 @@ h2 {
         font-size: 20px;
     }
 
+    .description {
+        text-align: center;
+        color: #000000;
+    }
+
     .telephone {
         letter-spacing: 0px;
     }
@@ -456,7 +461,6 @@ h2 {
     .description {
         font-weight: 900;
         font-size: 25px;
-        color: #000000;
     }
     
     .scroll .consultation {
