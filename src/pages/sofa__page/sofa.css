@@ -1,6 +1,6 @@
 .header {
-    background: url(../../img/sofa__page/sofa.jpg) center center/cover no-repeat fixed;
-    background-position: 0 -500px;
+    background: url(../../img/sofa__page/sofa.jpg) center center/cover no-repeat;
+    background-size: 100% auto;
 }
 
 #_1 {

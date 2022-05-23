@@ -1,6 +1,6 @@
 .header {
     background: url(../../img/bed__page/bed.jpg) center center/cover no-repeat fixed;
-    background-position: 0 -1000px;
+    background-size: 100% auto;
 }
 
 #_1 {

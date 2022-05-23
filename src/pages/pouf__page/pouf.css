@@ -1,6 +1,6 @@
 .header {
     background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat fixed;
-    background-position: 0 -500px;
+    background-size: 100% auto;
 }
 
 #_1 {
