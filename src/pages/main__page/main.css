@@ -457,6 +457,10 @@ h2 {
         font-size: 25px;
     }
 
+    .products {
+        display: none;
+    }
+
     .slider__description h2 {
         font-size: 40px;
     }
@@ -488,7 +492,7 @@ h2 {
 
 @media screen and (max-width: 425px) {
     .scroll {
-        height: 100vh;
+        height: 100%;
     }
 
     .telephone {
@@ -564,9 +568,9 @@ h2 {
         width: 175px;
     }
 
-    /* .products {
+    .products {
         display: none;
-    } */
+    }
 
     .telephone {
         font-size: 13px;
