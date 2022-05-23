@@ -70,7 +70,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     transition: 1s all ease;
     background: #000000e3;
 }
@@ -82,7 +82,7 @@
 
 .menu a {
     font-size: 20px;
-    padding: 0 0 40px 20px;
+    padding: 20px;
     text-decoration: none;
     color: #FFFFFF;
 }
