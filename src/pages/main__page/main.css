@@ -463,6 +463,16 @@ h2 {
         font-size: 25px;
     }
     
+    .scroll {
+        height: 100vh;
+    }
+
+    .soff {
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
     .scroll .consultation {
         margin: -30px auto;
         font-weight: 600;
@@ -504,9 +514,6 @@ h2 {
 }
 
 @media screen and (max-width: 425px) {
-    .scroll {
-        height: 100vh;
-    }
 
     .telephone {
         font-size: 12px;
