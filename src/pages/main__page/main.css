@@ -468,7 +468,7 @@ h2 {
     }
 
     .soff {
-        height: 100vh;
+        height: 80%;
         display: flex;
         justify-content: space-around;
     }
