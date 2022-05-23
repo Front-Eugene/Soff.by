@@ -508,6 +508,10 @@ h2 {
         border-color: #000000;
     }
 
+    .products {
+        display: none;
+    }
+
     .slider__item {
         display: flex;
         align-items: center;
@@ -560,9 +564,9 @@ h2 {
         width: 175px;
     }
 
-    .products {
+    /* .products {
         display: none;
-    }
+    } */
 
     .telephone {
         font-size: 13px;
