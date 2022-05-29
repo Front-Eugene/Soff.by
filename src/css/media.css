@@ -15,10 +15,13 @@
 
     .consultation {
         margin: 0 auto;
+        color: #000000;
+        border-color: #000000;
     }
 }
 
 @media screen and (max-width: 768px) {
+
     .hamburger {
         padding: 0px 5px;
     }
@@ -91,6 +94,10 @@
 }
 
 @media screen and (max-width: 425px) {
+
+    .modal__wrap {
+        width: 80%;
+    }
 
     .telephone {
         font-size: 12px;

@@ -1,28 +1,27 @@
-.header {
-    background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat fixed;
-    background-size: 100% auto;
+.product__header {
+    background: url(../../img/carpet__page/main_carpet.jpg) center center/cover no-repeat fixed;
 }
 
 #_1 {
-    background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat;
+    background: url(../../img/carpet__page/carpet_1.jpg) center center/cover no-repeat;
 }
 
 #_2 {
-    background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat;
+    background: url(../../img/carpet__page/carpet_2.jpg) center center/cover no-repeat;
 }
 
 #_3 {
-    background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat;
+    background: url(../../img/carpet__page/carpet_1.jpg) center center/cover no-repeat;
 }
 
 #_4 {
-    background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat;
+    background: url(../../img/carpet__page/carpet_2.jpg) center center/cover no-repeat;
 }
 
 #_5 {
-    background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat;
+    background: url(../../img/carpet__page/carpet_1.jpg) center center/cover no-repeat;
 }
 
 #_6 {
-    background: url(../../img/pouf__page/ottoman.jpg) center center/cover no-repeat;
+    background: url(../../img/carpet__page/carpet_2.jpg) center center/cover no-repeat;
 }
