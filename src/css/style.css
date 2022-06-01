@@ -3,6 +3,11 @@
     src: url("../fonts/Circe.otf") format("truetype");
 }
 
+@font-face {
+    font-family: "Times";
+    src: url("../fonts/Times.ttf") format("truetype");
+}
+
 body {
     position: relative;
     font-family: 'Circe', sans-serif;

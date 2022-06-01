@@ -193,20 +193,23 @@ h2 {
     width: 350px;
     height: 400px;
     margin: 0 0 20px 0;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
     overflow: hidden;
     transition: .2s;
 }
 
 .card_info {
     width: 100%;
-    padding: 10px 0 10px 10px;
-    opacity: 0;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: uppercase;
     font-size: 20px;
-    line-height: 25px;
-    background: rgb(0 0 0 / 70%);
+    opacity: 0;
+    color: #FFFFFF;
+    background: rgb(0 0 0 / 50%);
+
 }
 
 .card:hover .card_info {
