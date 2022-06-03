@@ -1,156 +1,97 @@
-.slider {
-    width: 100%;
+button {
+    cursor: pointer;
 }
 
-.slider__wrap {
+.gallery {
+    width: 100%;
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.gallery__wrap {
+    width: 50%;
+}
+
+.gallery__descr {
+    width: 50%;
+    padding: 0 0 0 40px;
+    font-size: 25px;
+}
+
+.order {
+    width: 30%;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    background: #ffe163;
+}
+
+.gallery__main-img {
+    height: 300px;
+    display: flex;
     overflow: hidden;
 }
 
-.slider__track {
-    width: 100%;
-    height: 600px;
+.gallery__items-wrap {
     display: flex;
-    position: relative;
-    transition: 1s;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.slider__item {
+.gallery__item-min {
+    padding: 20px 0 5px 0;
+    filter: brightness(50%);
+    transition: .8s all ease;
+}
+
+.gallery__item-min .active {
+    filter: brightness(100%);
+}
+
+.gallery__item-min:hover {
+    filter: brightness(100%);
+}
+
+.gallery__item {
     min-width: 100%;
-    height: 100%;
 }
 
-.slider__item:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2%;
-    position: absolute;
-    top: 0;
-    background: transparent;
-    background-image: linear-gradient(to bottom, #ffffff, #ffffff00);
-}
-
-.slider__item:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2%;
-    position: absolute;
-    bottom: 0;
-    background: transparent;
-    background-image: linear-gradient(to bottom, #ffffff00, #ffffff);
-}
-
-
-.slider__description {
-    width: 70%;
-    margin: 20px auto;
-    text-align: center;
-    background: #00000047;
-}
-
-.slider__description h2 {
-    font-size: 50px;
-    color: #FFFFFF;
-}
-
-.slider__description h2 span {
-    font-size: 60px;
-    font-weight: 900;
-    color: #ff0000;
-}
-
-.slider button {
-    margin: -315px 0 30px 0;
-}
-
-.timer {
-    width: 100%;
-    height: 150px;
-    margin: 5% auto;
-    display: flex;
-}
-
-.timer__block {
-    width: 20%;
-    height: 110px;
-    margin: 0 auto;
-    padding: 15px 0;
-    font-size: 50px;
-    background: rgb(0 0 0 / 30%);
-}
-
-.slider__description p {
-    margin: 5px auto;
-    font-size: 35px;
-}
-
-.slide_1 {
-    background: url(../../img/main__page/newcomer.jpg) center center/cover no-repeat;
-}
-
-.slide_2 {
-    background: url(../../img/main__page/bed.jpg) center center/cover no-repeat;
-}
-
-.slide_3 {
-    background: url(../../img/main__page/sofa_corner.jpg) center center/cover no-repeat;
-}
-
-.slide_4 {
-    background: url(../../img/main__page/ottoman.jpg) center center/cover no-repeat;
-}
-
-.btn__scroll {
+.gallery__item-min {
+    width: 150px;
     height: 100px;
-    width: 100px;
-    position: absolute;
-    border: none;
-    font-size: 50px;
-    margin-top: -300px;
-    opacity: 0.2;
-    transform: scale(1, 2);
-    transition: all ease .5s;
-    z-index: 2;
-}
-
-.btn__scroll:hover {
-    opacity: .6;
-}
-
-.btn__prev {
-    left: 0;
-}
-
-.btn__next {
-    right: 0;
-}
-
-#_1 {
-    background: url(../../img/bed__page/bed.jpg) center center/cover no-repeat;
-}
-
-#_2 {
-    background: url(../../img/bed__page/bed_2.jpg) center center/cover no-repeat;
-}
-
-#_3 {
-    background: url(../../img/bed__page/bed_3.jpg) center center/cover no-repeat;
-}
-
-#_4 {
-    background: url(../../img/bed__page/bed_4.jpg) center center/cover no-repeat;
-}
-
-#_5 {
-    background: url(../../img/bed__page/bed_5.jpg) center center/cover no-repeat;
-}
-
-#_6 {
-    background: url(../../img/bed__page/bed_6.jpg) center center/cover no-repeat;
 }
 
 
-.description {
+.about {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.same {
+    width: 100%;
     color: #000000;
 }
+
+.same__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.same__wrap span {
+    padding: 10px;
+}
+
+.same__wrap p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.same__item {
+    width: 300px;
+    height: 200px;
+}
+
