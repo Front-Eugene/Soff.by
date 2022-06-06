@@ -1,8 +1,8 @@
-let gallery = document.querySelector('.gallery__main-img'),
-    galleryItem = document.querySelector('.gallery__item-min'),
-    translateWidth = gallery.offsetWidth,
-    position = 0;
+let screen = document.querySelector('.gallery__screen');
+    img = document.querySelectorAll('.gallery__item');
 
-
-
-gallery.style.transform = `translateX(${position}px)`
+    img.forEach(item => {
+        item.addEventListener('click', function() {
+            screen.innerHTML = '<img' +  item.getAttribute('data-link') + ' alt="sofa">';
+        })
+    });

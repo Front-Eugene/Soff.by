@@ -1,27 +1,13 @@
+body {
+    color: #000000;
+}
+
 button {
     cursor: pointer;
 }
 
-.gallery {
-    width: 100%;
-    margin: 50px 0 0 0;
-    display: flex;
-    justify-content: space-between;
-    color: #000000;
-}
-
-.gallery__wrap {
-    width: 50%;
-}
-
-.gallery__descr {
-    width: 50%;
-    padding: 0 0 0 40px;
-    font-size: 25px;
-}
-
 .order {
-    width: 30%;
+    width: 200px;
     height: 50px;
     border: none;
     font-size: 20px;
@@ -29,69 +15,66 @@ button {
     background: #ffe163;
 }
 
-.gallery__main-img {
-    height: 300px;
-    display: flex;
-    overflow: hidden;
+.gallery {
+	width: 100%;
+	margin: 50px 0 0 0;
+    padding: 15px 0 0 15px;
+    box-sizing: border-box;
+	display: flex;
 }
 
-.gallery__items-wrap {
+.gallery__wrap {
+	width: 70%;
+	display: flex;
+    justify-content: space-between;
+}
+
+.gallery__screen {
+	width: 100%;
+	height: 300px;
+}
+
+.gallery__screen img{
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+.gallery__item__wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+    width: 100%;
 
-.gallery__item-min {
-    padding: 20px 0 5px 0;
-    filter: brightness(50%);
-    transition: .8s all ease;
-}
-
-.gallery__item-min .active {
-    filter: brightness(100%);
-}
-
-.gallery__item-min:hover {
-    filter: brightness(100%);
 }
 
 .gallery__item {
-    min-width: 100%;
-}
-
-.gallery__item-min {
-    width: 150px;
+    width: 175px;
     height: 100px;
+    margin: 10px 0 5px 0;
 }
 
 
-.about {
-    color: #000000;
-    font-size: 15px;
-    font-weight: 900;
+
+
+.gallery__descr {
+    width: 50%;
+    padding: 0 20px;
+    font-size: 20px;
+    box-sizing: border-box;
 }
 
 .same {
-    width: 100%;
-    color: #000000;
+	padding: 0 10px;
 }
 
 .same__wrap {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
-.same__wrap span {
-    padding: 10px;
-}
-
-.same__wrap p {
-    font-size: 20px;
-    font-weight: 600;
-}
 
 .same__item {
-    width: 300px;
-    height: 200px;
+	width: 250px;
+	height: 150px;
 }
-
