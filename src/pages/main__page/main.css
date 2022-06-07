@@ -301,7 +301,6 @@ h2 {
 .instagram__item {
     height: 300px;
     margin: 0 3px;
-    background: #000000;
 }
 
 .instagram__item img{
@@ -310,9 +309,9 @@ h2 {
     margin: 0 auto;
 }
 
-.marquee-infinite:hover div {
+/* .marquee-infinite:hover div {
     animation-play-state: paused;
-}
+} */
 
 @keyframes marquee-infinite {
     0% {
