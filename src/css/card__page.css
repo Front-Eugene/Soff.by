@@ -39,14 +39,15 @@ button {
 }
 
 .gallery__screen {
-	width: 100%;
-	height: 400px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
     overflow: hidden;
 }
 
 .gallery__screen img{
-    max-width: 100%;
-    align-items: center;
+    width: 100%;
 }
 
 .gallery__item__wrap {
@@ -73,17 +74,40 @@ button {
     box-sizing: border-box;
 }
 
-.same {
+.same {    
 	padding: 0 10px;
 }
 
 .same__wrap {
 	display: flex;
 	justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.same__wrap p {
+    margin: 5px auto;
 }
 
 
 .same__item {
 	width: 250px;
 	height: 150px;
+}
+
+.more {
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.more div {
+    color: red;
+}
+
+.more span {
+    margin: 0 5px;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
 }
