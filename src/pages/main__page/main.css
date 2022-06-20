@@ -65,7 +65,7 @@
 
 /* #2 PRODUCTS SECTION__________ */
 
-.products {
+/* .products {
     width: 100%;
 }
 
@@ -122,7 +122,7 @@ h2 {
 
 .ottoman {
     background: url(../../img/main__page/ottoman.jpg) center center/cover no-repeat;
-}
+} */
 
 /* #3 SLIDER SECTION__________ */
 
@@ -259,7 +259,7 @@ h2 {
 }
 
 #_2 {
-    background: url(../../img/bed__page/bed_2.jpg) center center/cover no-repeat;
+    background: url(../../img/bed__page/bed_1/bed_1.jpg) center center/cover no-repeat;
 }
 
 #_3 {
