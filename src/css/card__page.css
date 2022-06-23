@@ -58,8 +58,10 @@ button {
 }
 
 .gallery__item {
-    height: 100px;
-    min-width: 150px;
+    /* height: 100px;
+    min-width: 150px; */
+    height: 80px;
+    width: 80px;
     display: flex;
     align-items: center;
     margin: 5px;
@@ -145,7 +147,6 @@ button {
     }
 
     .gallery__item {
-        height: 100px;
         display: flex;
         align-items: center;
         margin: 5px 1px;

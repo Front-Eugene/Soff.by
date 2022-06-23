@@ -1,5 +1,40 @@
 @media screen and (max-width: 1024px)  {
 
+    .slider__track {
+        height: 400px;
+    }
+
+    .timer {
+        margin: 0 auto;
+    }
+
+    .slider__description h2 {
+        font-size: 35px;
+    }
+
+    .slider__description h2 span {
+        font-size: 40px;
+    }
+
+    .slider__description p {
+        font-size: 25px;
+    }
+
+    .timer__block {
+        height: 80px;
+        font-size: 35px;
+    }
+
+    .slider__description button {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+
+    .about__wrap button {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+
     .address__wrap {
         font-size: 20px;
     }
@@ -15,6 +50,7 @@
 
     .consultation {
         margin: 0 auto;
+        font-weight: 600;
         color: #000000;
         border-color: #000000;
     }

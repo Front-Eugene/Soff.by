@@ -3,6 +3,6 @@ let screen = document.querySelector('.gallery__screen');
 
     img.forEach(item => {
         item.addEventListener('click', function() {
-            screen.innerHTML = '<img' +  item.getAttribute('data-link') + 'alt="sofa">';
+            screen.innerHTML = '<img' +  item.getAttribute('data-link') + '>';
         })
     });
