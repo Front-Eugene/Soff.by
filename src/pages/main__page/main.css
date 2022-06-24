@@ -2,10 +2,10 @@
 
 .scroll {
     width: 100%;
-    height: 450px;
+    height: 350px;
     position: relative;
     overflow: hidden;
-    background: url(../../img/main__page/main-screen.jpg) center center/cover no-repeat fixed;
+    background: url(../../img/main__page/main-screen.jpg) center center/cover no-repeat /*fixed*/;
     background-size: contain;
     /* text-shadow: 3px 3px 3px rgb(0 0 0 / 80%); */
 }
@@ -39,7 +39,7 @@
 
 .description {
     font-weight: 100;
-    margin: 0 auto;
+    margin: -30px auto;
     text-transform: uppercase;
     font-size: 30px;
 }

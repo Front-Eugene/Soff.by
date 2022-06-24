@@ -79,12 +79,12 @@
         font-size: 25px;
     }
     
-    .scroll {
+    /* .scroll {
         height: 100vh;
-    }
+    } */
 
     .soff {
-        height: 80%;
+        /* height: 80%; */
         display: flex;
         justify-content: space-around;
     }
