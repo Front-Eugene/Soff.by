@@ -75,6 +75,7 @@
     }
     
     .description {
+        margin: 0 0 10px 0;
         font-weight: 900;
         font-size: 25px;
     }
@@ -144,7 +145,7 @@
     }
 
     .description {
-        margin: 30px auto;
+        margin: 0 auto;
         font-size: 20px;
         text-align: center;
     }
@@ -214,6 +215,7 @@
     }
 
     .telephone {
+        width: 120%;
         font-size: 13px;
     }
 
