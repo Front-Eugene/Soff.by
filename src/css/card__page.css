@@ -58,8 +58,6 @@ button {
 }
 
 .gallery__item {
-    /* height: 100px;
-    min-width: 150px; */
     height: 80px;
     width: 80px;
     display: flex;
@@ -116,8 +114,8 @@ button {
 
 
 .same__item {
-	width: 250px;
-	height: 150px;
+	width: 400px;
+	height: 250px;
 }
 
 .more {
@@ -159,6 +157,11 @@ button {
 }
 
 @media screen and (max-width: 425px) {
+
+    .same__item {
+        width: 100%;
+        height: auto;
+    }
 
     .modal__wrap {
         width: 90%;

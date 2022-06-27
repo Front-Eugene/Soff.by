@@ -39,20 +39,8 @@
         font-size: 20px;
     }
 
-    .description {
-        text-align: center;
-        color: #000000;
-    }
-
     .telephone {
         letter-spacing: 0px;
-    }
-
-    .consultation {
-        margin: 0 auto;
-        font-weight: 600;
-        color: #000000;
-        border-color: #000000;
     }
 }
 
@@ -79,13 +67,8 @@
         font-weight: 900;
         font-size: 25px;
     }
-    
-    /* .scroll {
-        height: 100vh;
-    } */
 
     .soff {
-        /* height: 80%; */
         display: flex;
         justify-content: space-around;
     }
