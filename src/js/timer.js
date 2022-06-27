@@ -1,5 +1,4 @@
-// const deadline_1 = '2022-7-25',
-const deadline_1 = new Date(2022, 7, 20, 12, 0, 0),
+const deadline_1 = '2022-7-25',
       deadline_2 = '2022-7-24',
       deadline_3 = '2022-8-15',
       minSecondsInSecond = 1000,
