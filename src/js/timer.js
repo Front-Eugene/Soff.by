@@ -35,10 +35,10 @@ function setClock(className, endTime) {
     function updateClock() {
         const time = getTime(endTime);
 
-        days.innerHTML = Number(time.days)
-        hours.innerHTML = Number(time.hours)
-        minutes.innerHTML = Number(time.minutes)
-        seconds.innerHTML = Number(time.seconds)
+        days.innerHTML = time.days
+        hours.innerHTML = time.hours
+        minutes.innerHTML = time.minutes
+        seconds.innerHTML = time.seconds
 
         if( time.totalTime <= 0) {
             clearInterval(timeInterval)

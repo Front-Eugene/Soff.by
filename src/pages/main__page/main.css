@@ -45,7 +45,7 @@
 }
 
 .consultation {
-    width: 200px;
+    width: 250px;
     height: 38px;
     margin: 20px 0 0 0;
     border: 2px solid #FFFFFF;
@@ -317,15 +317,17 @@
 }
 
 .about__wrap h2 {
+    padding: 0;
     font-size: 50px;
     color: #FFFFFF;
     text-transform: none;
 }
 
 .about__wrap p {
+    margin: 0;
+    padding: 0;
     font-size: 25px;
     line-height: 30px;
-    margin: 10px auto;
 }
 
 .map__wrap {
