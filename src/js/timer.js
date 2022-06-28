@@ -1,6 +1,6 @@
-const deadline_1 = '2022-7-25',
-      deadline_2 = '2022-7-24',
-      deadline_3 = '2022-8-15',
+const deadline_1 = new Date("10/26/2022"),
+      deadline_2 = new Date("8/16/2022"),
+      deadline_3 = new Date("11/20/2022")
       minSecondsInSecond = 1000,
       secondInMinute = 60,
       minInHour = 60,
