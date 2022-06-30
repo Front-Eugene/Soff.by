@@ -2,12 +2,11 @@
 
 .scroll {
     width: 100%;
-    height: 350px;
+    height: 370px;
     position: relative;
     overflow: hidden;
-    background: url(../../img/main__page/main-screen.jpg) center center/cover no-repeat /*fixed*/;
+    background: url(../../img/main__page/main-screen.jpg) center center/cover no-repeat;
     background-size: contain;
-    /* text-shadow: 3px 3px 3px rgb(0 0 0 / 80%); */
 }
 
 .scroll:after {
@@ -47,7 +46,7 @@
 .consultation {
     width: 250px;
     height: 38px;
-    margin: 20px 0 0 0;
+    margin: 100px 0 0 0;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
@@ -127,6 +126,11 @@
 
 .slider button {
     margin: -270px 0 30px 0;
+    border: none;
+    border-radius: 0;
+    font-weight: 600;
+    color: #000000;
+    background: #ffe163;
 }
 
 .timer {
@@ -167,8 +171,8 @@
 }
 
 .btn__scroll {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 80px;
     position: absolute;
     border: none;
     font-size: 50px;

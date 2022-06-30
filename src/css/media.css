@@ -1,5 +1,9 @@
 @media screen and (max-width: 1024px)  {
 
+    .slider button {
+        color: #000000;
+    }
+
     .slider__track {
         height: 400px;
     }
@@ -25,11 +29,6 @@
         font-size: 35px;
     }
 
-    .slider__description button {
-        color: #ffffff;
-        border-color: #ffffff;
-    }
-
     .about__wrap button {
         color: #ffffff;
         border-color: #ffffff;
@@ -51,7 +50,11 @@
     }
     
     h1 {
-        font-size: 35px;
+        font-size: 25px;
+    }
+
+    .search {
+        padding: 0px 10px 5px 10px;
     }
 
     .contacts__wrap {
@@ -74,7 +77,7 @@
     }
 
     .scroll .consultation {
-        margin: -30px auto;
+        margin: 120px auto;
         font-weight: 600;
         color: #000000;
         border-color: #000000;
@@ -125,6 +128,18 @@
 
     h1 {
         font-size: 30px;
+    }
+
+    .sort {
+        font-size: 10px;
+    }
+
+    .search {
+        padding: 0 0 5px 0;
+    }
+
+    .search button {
+        width: 110px;
     }
 
     .description {
@@ -185,6 +200,10 @@
 
 @media screen and (max-width: 375px) {
 
+    .search button {
+        margin: 0;
+    }
+
     .contacts__wrap {
         width: 175px;
     }
@@ -234,8 +253,12 @@
         font-size: 15px;
     }
 
+    .search button {
+        width: 100px;
+    }
+
     .sort {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .menu a {
