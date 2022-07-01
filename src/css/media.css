@@ -118,6 +118,14 @@
 
 @media screen and (max-width: 425px) {
 
+    .hamburger {
+        padding: 0;
+    }
+
+    .scroll .consultation {
+        margin: 80px auto;
+    }
+
     .modal__wrap {
         width: 80%;
     }
@@ -131,7 +139,7 @@
     }
 
     .sort {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .search {
@@ -140,6 +148,7 @@
 
     .search button {
         width: 110px;
+        font-size: 12px;
     }
 
     .description {
@@ -181,6 +190,10 @@
 
     .instagram__item img {
         width: 200px;
+    }
+
+    .about__wrap button {
+        margin: 20px auto;
     }
 
     .about__wrap p {
@@ -255,10 +268,11 @@
 
     .search button {
         width: 100px;
+        font-size: 10px;
     }
 
     .sort {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .menu a {
