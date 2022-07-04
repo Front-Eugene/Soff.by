@@ -1,5 +1,9 @@
 /* #1 HEADER SECTION__________ */
 
+.card_info {
+    height: 80%;
+}
+
 .scroll {
     width: 100%;
     height: 370px;
