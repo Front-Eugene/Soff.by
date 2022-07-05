@@ -112,7 +112,6 @@
 
     .footer {
         align-items: baseline;
-        height: 100px;
     }
 }
 
@@ -205,10 +204,6 @@
         padding: 100px 10px;
         font-size: 20px;
     }
-
-    .footer {
-        height: 200px;
-    }
 }
 
 @media screen and (max-width: 375px) {
@@ -242,9 +237,6 @@
         font-size: 15px;
     }
 
-    .footer {
-        height: 250px;
-    }
 }
 
 @media screen and (max-width: 320px) {
@@ -277,9 +269,5 @@
 
     .menu a {
         font-size: 15px;
-    }
-
-    .footer {
-        height: auto;
     }
 }
