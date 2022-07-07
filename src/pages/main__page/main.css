@@ -123,7 +123,7 @@
     color: #ff0000;
 }
 
-.slider button {
+.slider .consultation {
     margin: -270px 0 30px 0;
     border: none;
     border-radius: 0;
@@ -150,7 +150,7 @@
 }
 
 .slider__description p {
-    margin: 0 auto;
+    margin: -1px auto;
     font-size: 35px;
     letter-spacing: 4px;
     color: #000000;
@@ -183,17 +183,24 @@ aside p {
 }
 
 .btn__scroll {
-    height: 60px;
+    height: 80px;
     width: 80px;
+    margin: -300px 0 0 0;
     position: absolute;
     border: none;
-    font-size: 50px;
-    margin-top: -300px;
-    opacity: 0.2;
-    transform: scale(1, 2);
-    transition: all ease .5s;
-    z-index: 2;
+    font-size: 70px;
+    transform: scale(1, 1.5);
+    background: #00000000;
 }
+
+/* height: 60px;
+width: 40px;
+position: absolute;
+margin: -95px 0 0 0;
+border: none;
+font-size: 50px;
+transform: scale(1, 1.5);
+background: #00000000; */
 
 .btn__scroll:hover {
     opacity: .6;

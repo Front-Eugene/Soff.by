@@ -1,7 +1,7 @@
 @media screen and (max-width: 1024px)  {
 
     .slider button {
-        color: #000000;
+        margin: -200px 0 0 0;
     }
 
     .slider__track {
@@ -119,6 +119,19 @@
 
     .hamburger {
         padding: 0;
+    }
+
+    .btn__scroll {
+        height: 275px;
+        width: 40px;
+        font-size: 50px;
+        transform: scale(1, 1.5);
+        background: #00000000;
+    }
+
+    
+    .slider__button {
+        margin: -95px 0 0 0;
     }
 
     .scroll .consultation {
