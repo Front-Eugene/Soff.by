@@ -12,4 +12,4 @@ let instPosition = 0,
             instPosition -= instItemWidth
             instTrack.style.transform = `translateX(${instPosition}px)`
         }
-    }, 2000);
+    }, 4000);
