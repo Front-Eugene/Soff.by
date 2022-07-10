@@ -1,9 +1,8 @@
 let catalog = document.querySelector('.catalog'),
-    cards = document.querySelectorAll('.card'),
+    cards = document.querySelectorAll('.card__wrap'),
     btnUp = document.querySelector('.up'),
     btnDown = document.querySelector('.down'),
-    btnHave = document.querySelector('.have'),
-    cardWrap = document.querySelectorAll('.card__wrap');
+    btnHave = document.querySelector('.have');
 
 btnUp.addEventListener('click', function() {
     let sortUp = [...cards].sort(function(card, nextCard) {
@@ -29,7 +28,7 @@ btnDown.addEventListener('click', function() {
 })
 
 btnHave.addEventListener('click', function() {
-    cardWrap.forEach(elem => {
+    cards.forEach(elem => {
         if (elem.getAttribute('data-existence') == 'false') elem.classList.toggle('hide')
     })
 
