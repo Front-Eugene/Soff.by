@@ -1,0 +1,53 @@
+.gallery__slider {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+    opacity: 0;
+    z-index: -100;
+    overflow: hidden;
+    text-align: center;
+    background: #000000e8;
+}
+
+.active {
+    opacity: 1;
+    z-index: 9999;
+}
+
+.slider__line {
+    display: flex;
+    transition: 1s all ease;
+}
+
+.slider__line img {
+    height: 500px;
+}
+
+.btn__wrap {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn__scroll {
+    margin: 5px 10px;
+    width: 100px; 
+    height: 100px;
+    font-size: 50px;
+    border: none;
+    background: #00000000;
+    color: #ffffff;
+}
+
+.btn__close {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 900;
+}
+
